@@ -103,7 +103,7 @@
 	function panelShift_UP(){
 
 		if(panel_is == false){
-			var parent 			= document.getElementById('POPUP_Collection');
+			var parent = document.getElementById('POPUP_Collection');
 			TweenLite.to(parent, .5, {top: 496});
 		}
 
@@ -111,7 +111,7 @@
 	function panelShift_DOWN(){
 
 		if(panel_is == false){
-			var parent 			= document.getElementById('POPUP_Collection');
+			var parent = document.getElementById('POPUP_Collection');
 			TweenLite.to(parent, .5, {top: 516});
 		}
 	}
@@ -246,8 +246,6 @@
 			var id = idArr[id];
 			var postcard_Collection  = document.getElementsByClassName("postCard_video");
 			var popup_Collection  = document.getElementsByClassName("popup_Base");
-
-
 
 			// FADEOUT CURRENT POSTCARD
 			TweenLite.to(postcard_Collection[config['prevSection']], 1, {opacity:0});
@@ -406,7 +404,7 @@
 		}
 	}
 
-	function objectGetBounds(obj,fnSwitch){
+	/*function objectGetBounds(obj,fnSwitch){
 		return obj.getBoundingClientRect();
 	}
 
@@ -418,7 +416,7 @@
 		obj.addEventListener(ele,type,pointer)
 	}
 
-	function msg(data){console.log(data)}
+	function msg(data){console.log(data)}*/
 
 
 window.addEventListener("load", initEB);
