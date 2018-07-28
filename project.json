@@ -1,0 +1,10 @@
+{
+    "adName":   "MAM 2017_SpringSummer",
+    "width":    "300",
+    "height":   "600",
+    "paths": {
+        "output":   "output",
+        "deploy":   "deploy",
+        "temp":     "temp"
+    }
+}

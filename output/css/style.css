@@ -1,0 +1,411 @@
+html,
+body {
+  width: 300px;
+  height: 600px;
+  margin: 0;
+  overflow: hidden;
+}
+#ad {
+  width: 300px;
+  height: 600px;
+  display: block;
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#banner {
+  position: absolute;
+  width: 298px;
+  overflow: hidden;
+  height: 598px;
+  background: url(../images/wood.jpg) 0 0 no-repeat;
+  border: 1px solid black;
+}
+#banner #cta {
+  position: inherit;
+  bottom: 0;
+  right: 0;
+  width: 154px;
+  height: 46px;
+  background: url(../images/cta.png) 0 0 no-repeat;
+  z-index: 100;
+}
+#banner #logo {
+  position: inherit;
+  top: 0;
+  left: 0;
+  width: 141px;
+  height: 127px;
+  background: url(../images/logo.png) 0 0 no-repeat;
+  z-index: 101;
+}
+#banner #layout_right {
+  position: inherit;
+  top: 0;
+  right: 0;
+  width: 407px;
+  height: 598px;
+}
+#banner #layout_right #coffee_camera_compass {
+  top: 3px;
+  right: -222px;
+  width: 284px;
+  height: 189px;
+  position: inherit;
+  background: url(../images/coffee_camera_compass.png) 0 0 no-repeat;
+}
+#banner #layout_right #POPUP_Collection {
+  width: 293px;
+  height: 175px;
+  position: inherit;
+  top: 516px;
+  left: 130px;
+  z-index: 21;
+  -webkit-transform: rotate(-6deg);
+      -ms-transform: rotate(-6deg);
+          transform: rotate(-6deg);
+  background: url(../images/popBook.png) 0 0 no-repeat;
+  opacity: 0;
+}
+#banner #layout_right #POPUP_Collection #hotspot {
+  position: absolute;
+  top: -4px;
+  left: 226px;
+  width: 50px;
+  height: 20px;
+}
+#banner #layout_right #POPUP_Collection .popup_Base {
+  width: 293px;
+  height: 134px;
+  position: inherit;
+  top: 13px;
+  left: 0;
+  opacity: 0;
+}
+#banner #layout_right #POPUP_Collection .fall {
+  background: url(../images/fall_msg.png) 0 0 no-repeat;
+}
+#banner #layout_right #POPUP_Collection .winter {
+  background: url(../images/winter_msg.png) 0 0 no-repeat;
+}
+#banner #layout_right #POPUP_Collection .spring {
+  background: url(../images/spring_msg.png) 0 0 no-repeat;
+  top: 33px !important;
+}
+#banner #layout_right #POPUP_Collection .summer {
+  background: url(../images/summer_msg.png) 0 0 no-repeat;
+}
+#banner #layout_right #season_Collection {
+  position: inherit;
+  width: 178px;
+  height: 230px;
+  position: relative;
+  top: 315px;
+  left: -120px;
+  border: 1px solid red;
+  opacity: 0;
+}
+#banner #layout_right #season_Collection .season_Base {
+  position: absolute;
+  width: 178px;
+  height: 115px;
+  position: inherit;
+  left: 227px;
+}
+#banner #layout_right #season_Collection .fall {
+  position: absolute;
+  background: url(../images/season_Collection.png) 0 10px no-repeat;
+  opacity: 0;
+  top: -177px;
+  left: 197px;
+}
+#banner #layout_right #season_Collection .winter {
+  position: absolute;
+  background: url(../images/season_Collection.png) 0 -114px no-repeat;
+  opacity: 0;
+  top: -177px;
+}
+#banner #layout_right #season_Collection .spring {
+  position: absolute;
+  background: url(../images/season_Collection.png) 0 -251px no-repeat;
+  opacity: 0;
+  top: -177px;
+}
+#banner #layout_right #season_Collection .summer {
+  position: absolute;
+  background: url(../images/season_Collection.png) 0 -391px no-repeat;
+  opacity: 1;
+  top: -177px;
+}
+#banner #layout_right header {
+  width: 170px;
+  height: 222px;
+  position: inherit;
+  top: 7px;
+  left: 224px;
+  background: url(../images/nav.png) 0 0 no-repeat;
+}
+#banner #layout_right nav {
+  position: inherit;
+  top: 0;
+  left: 107px;
+  width: 100px;
+  height: 50px;
+  z-index: 23;
+}
+#banner #layout_right nav .navBtn_BASE {
+  position: inherit;
+  width: 115px;
+  height: 22px;
+}
+#banner #layout_right nav .icon {
+  width: 10px;
+  height: 9px;
+  background: url(../images/nav_icon.png) 0 0 no-repeat;
+}
+#banner #layout_right nav .summer {
+  top: 79px;
+  left: 191px;
+}
+#banner #layout_right nav .summer .heading {
+  position: inherit;
+  top: -5px;
+  left: 16px;
+  width: 115px;
+  height: 22px;
+  background: url(../images/nav_header.png) 0 -45px no-repeat;
+}
+#banner #layout_right nav .summer .Btn_active_0 {
+  position: inherit;
+  top: -8px;
+  left: 12px;
+  width: 115px;
+  height: 25px;
+  background: url(../images/Btn_active.png) 0 -113px no-repeat;
+  opacity: 0;
+}
+#banner #layout_right nav .summer .icon {
+  width: 10px;
+  height: 9px;
+  background: url(../images/nav_icon.png) 0 0 no-repeat;
+}
+#banner #layout_right nav .fall {
+  top: 134px;
+  left: 186px;
+}
+#banner #layout_right nav .fall .heading {
+  position: inherit;
+  top: -5px;
+  left: -42px;
+  width: 115px;
+  height: 22px;
+  background: url(../images/nav_header.png) 0 0 no-repeat;
+}
+#banner #layout_right nav .fall .Btn_active_1 {
+  position: inherit;
+  top: -8px;
+  left: -51px;
+  width: 115px;
+  height: 22px;
+  background: url(../images/Btn_active.png) 0 0 no-repeat;
+  opacity: 0;
+}
+#banner #layout_right nav .winter {
+  top: 178px;
+  left: 186px;
+}
+#banner #layout_right nav .winter .heading {
+  position: inherit;
+  top: -10px;
+  left: 17px;
+  width: 115px;
+  height: 22px;
+  background: url(../images/nav_header.png) 0 -66px no-repeat;
+}
+#banner #layout_right nav .winter .Btn_active_2 {
+  position: inherit;
+  top: -10px;
+  left: 14px;
+  width: 115px;
+  height: 25px;
+  background: url(../images/Btn_active.png) 0 -34px no-repeat;
+  opacity: 0;
+}
+#banner #layout_right nav .spring {
+  top: 226px;
+  left: 187px;
+}
+#banner #layout_right nav .spring .heading {
+  position: inherit;
+  top: -5px;
+  left: -61px;
+  width: 115px;
+  height: 22px;
+  background: url(../images/nav_header.png) 0 -22px no-repeat;
+}
+#banner #layout_right nav .spring .Btn_active_3 {
+  position: inherit;
+  top: -8px;
+  left: -65px;
+  width: 115px;
+  height: 25px;
+  background: url(../images/Btn_active.png) 0 -71px no-repeat;
+  opacity: 0;
+}
+#banner #layout_left {
+  position: inherit;
+  top: 252px;
+  left: -203px;
+  width: 561px;
+  height: 598px;
+}
+#banner #layout_left #postCard_Collections {
+  position: absolute;
+  top: 15px;
+  left: 6px;
+  width: 561px;
+  height: 598px;
+}
+#banner #layout_left #postCard_Collections .superWrapper {
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  width: 561px;
+  height: 598px;
+  -webkit-transform: translateZ(0) rotate(-3deg);
+          transform: translateZ(0) rotate(-3deg);
+}
+#banner #layout_left #postCard_Collections .superWrapper #super_1 {
+  position: absolute;
+  top: 203px;
+  left: 344px;
+  width: 131px;
+  height: 49px;
+  background: url(../images/super_1.png) 0 0 no-repeat;
+}
+#banner #layout_left #postCard_Collections .superWrapper #super_2 {
+  position: absolute;
+  top: 240px;
+  left: 355px;
+  width: 241px;
+  height: 49px;
+  background: url(../images/super_1.png) -28px -78px no-repeat;
+}
+#banner #layout_left #postCard_Collections .superWrapper #super_3 {
+  position: absolute;
+  top: 61px;
+  left: 311px;
+  width: 231px;
+  height: 29px;
+  background: url(../images/super_2.png) 0 0 no-repeat;
+}
+#banner #layout_left #postCard_Collections .superWrapper #super_4 {
+  position: absolute;
+  top: 90px;
+  left: 322px;
+  width: 321px;
+  height: 42px;
+  background: url(../images/super_2.png) 0px -29px no-repeat;
+}
+#banner #layout_left #postCard_Collections .superWrapper #super_5 {
+  position: absolute;
+  top: 213px;
+  left: 414px;
+  width: 321px;
+  height: 42px;
+  background: url(../images/super_3.png) 0px 0px no-repeat;
+}
+#banner #layout_left #postCard_Collections .superWrapper #super_6 {
+  position: absolute;
+  top: 245px;
+  left: 251px;
+  width: 321px;
+  height: 62px;
+  background: url(../images/super_3.png) 0px -74px no-repeat;
+}
+#banner #layout_left #postCard_Collections .superWrapper #super_7 {
+  position: absolute;
+  top: 68px;
+  left: 291px;
+  width: 321px;
+  height: 26px;
+  background: url(../images/super_4.png) 0px 0px no-repeat;
+}
+#banner #layout_left #postCard_Collections .superWrapper #super_8 {
+  position: absolute;
+  top: 100px;
+  left: 297px;
+  width: 321px;
+  height: 82px;
+  background: url(../images/super_4.png) 0px -27px no-repeat;
+}
+#banner #layout_left #postCard_Collections .postCard_video {
+  position: absolute;
+  top: -36px;
+  left: -656px;
+  width: 681px;
+  height: 276px;
+  -webkit-transform: rotate(3deg);
+      -ms-transform: rotate(3deg);
+          transform: rotate(3deg);
+}
+#banner #layout_left #postCard_Collections .postCard_video .videoHolder {
+  position: absolute;
+  top: 37px;
+  left: 121px;
+  width: 469px;
+  height: 266px;
+  overflow: hidden;
+}
+#banner #layout_left #postCard_Collections .postCard_video .videoHolder .dropShadow_video {
+  position: absolute;
+  top: 0;
+  left: 168px;
+  width: 469px;
+  height: 111px;
+  overflow: hidden;
+  background: url(../images/dropshadow_video.png) 0 0 no-repeat;
+  opacity: .7;
+}
+#banner #layout_left #postCard_Collections .postCard_video .videoHolder .video {
+  position: absolute;
+  left: 75px;
+  top: -20px;
+  width: 556px;
+  height: 296px;
+  -webkit-transform: scale(0.87);
+      -ms-transform: scale(0.87);
+          transform: scale(0.87);
+}
+#banner #layout_left #postCard_Collections .postCard_video .videoHolder .winter {
+  left: 33px;
+}
+#banner #layout_left #postCard_Collections .postCard_video .videoHolder .spring {
+  left: 43px;
+  top: -21px;
+}
+#banner #layout_left #postCard_Collections .postCard_video .videoHolder .summer {
+  left: 43px;
+  top: 20px;
+  -webkit-transform: scale(0.87);
+      -ms-transform: scale(0.87);
+          transform: scale(0.87);
+}
+#banner #layout_left #postCard_Collections .postCard_video .frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 667px;
+  height: 347px;
+  background: url(../images/frame.png) 0 0 no-repeat;
+}
+#banner #layout_left #postCard_Collections .postCard_video .tape {
+  position: absolute;
+  top: -17px;
+  left: 541px;
+  width: 113px;
+  height: 126px;
+  background: url(../images/tape.png) 0 0 no-repeat;
+}
